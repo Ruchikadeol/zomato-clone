@@ -1,0 +1,251 @@
+/* lOGIN PAGE CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body.login_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.login_div {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+.login_span.text_loginpage {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e23744;
+    /* Zomato red */
+    margin-bottom: 20px;
+}
+
+.login_ph_plc {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.send_otp_btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #e23744;
+    /* Zomato red */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.send_otp_btn:hover {
+    background-color: #d12237;
+    /* Darker shade of Zomato red */
+}
+
+.divider {
+    gap: 4px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.OR {
+    color: #666;
+    font-size: 14px;
+    background-color: inherit;
+}
+
+.hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc;
+    width: 100%;
+}
+
+.google_btn,
+.email_btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.google_btn:hover,
+.email_btn:hover {
+    background-color: #f0f0f0;
+}
+
+.google_btn {
+    margin-bottom: 10px;
+}
+
+.new_create_acc {
+    font-size: 14px;
+    color: #555;
+}
+
+.new_create_acc .create_account_link {
+    color: #e23744;
+    text-decoration: none;
+}
+
+.new_create_acc .create_account_link:hover {
+    text-decoration: underline;
+}
+
+.create_account {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) {
+    .login_div {
+        padding: 20px;
+    }
+
+    .login_span.text_loginpage {
+        font-size: 24px;
+    }
+}
+
+
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+.signup_div {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    position: relative;
+}
+
+.signup_span.text_signuppage {
+    display: block;
+    font-size: 28px;
+    font-weight: bold;
+    color: #e23744;
+    /* Zomato red */
+    margin-bottom: 20px;
+}
+
+.signup_fn_plc,
+.signup_email_plc {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+.verify_btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #e23744;
+    /* Zomato red */
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.verify_btn:hover {
+    background-color: #d12237;
+    /* Darker shade of Zomato red */
+}
+
+.cont_w_google {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: white;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    margin-bottom: 15px;
+    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont_w_google:hover {
+    background-color: #f0f0f0;
+}
+
+.or {
+    display: block;
+    font-size: 14px;
+    color: #666;
+    margin: 10px 0;
+}
+
+.already {
+    font-size: 14px;
+    color: #555;
+}
+
+.already .login_link {
+    color: #e23744;
+    text-decoration: none;
+}
+
+.already .login_link:hover {
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 600px) {
+    .signup_div {
+        padding: 20px;
+    }
+
+    .signup_span.text_signuppage {
+        font-size: 24px;
+    }
+}

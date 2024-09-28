@@ -1,548 +1,542 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Zomato</title>
-        <link rel="icon" href="zomato_logo_2017.avif" type="image/gif" sizes="any">
-        <link rel = "stylesheet" type = "text/css" href = "./Zomato.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <img src = "./images/zomatonameblack.avif" width="130px" height="30px" class = "order_logo_zomato">
-        <span class = "menu_span4 navbar_text" id = "orderpage_login"><a href  = "./Login.html" class = "link_login" id = "orderpage_loginlink">Log In</a></span>
-            <span class = "menu_span5 navbar_text" id = "orderpage_signup"><a href = "./signup.html" class = "signuplink" id = "orderpage_signuplink">Sign Up</a></span>
-            <hr class = "hr_order">
-            <hr class = "hr2_order">
-            <hr class = "hr3_order">
 
-<span class = "available_cuisines">Available Cuisines: </span>
-<button class = "cuisines_button north">North Indian</button>
-<button class = "cuisines_button south">South Indian</button>
-<button class = "cuisines_button bakery">Bakery</button>
-<button class = "cuisines_button pizza">Pizza</button>
-<button class = "cuisines_button chinese">Chinese</button>
-<button class = "cuisines_button pasta">Mughlai</button>
-<button class = "cuisines_button chicken" id = "chicken">Roast Chicken</button>
-<button class = "cuisines_button street" id = "street">Street Food</button>
+<head>
+    <title>Zomato</title>
+    <link rel="icon" href="zomato_logo_2017.avif" type="image/gif" sizes="any">
+    <link rel="stylesheet" type="text/css" href="./Zomato.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <img src="./images/zomatonameblack.avif" width="130px" height="30px" class="order_logo_zomato">
+    <span class="menu_span4 navbar_text" id="orderpage_login"><a href="./Login.html" class="link_login"
+            id="orderpage_loginlink">Log In</a></span>
+    <span class="menu_span5 navbar_text" id="orderpage_signup"><a href="./signup.html" class="signuplink"
+            id="orderpage_signuplink">Sign Up</a></span>
+    <hr class="hr_order">
+    <hr class="hr2_order">
+    <hr class="hr3_order">
+
+    <span class="available_cuisines">Available Cuisines: </span>
+    <button class="cuisines_button north">North Indian</button>
+    <button class="cuisines_button south">South Indian</button>
+    <button class="cuisines_button bakery">Bakery</button>
+    <button class="cuisines_button pizza">Pizza</button>
+    <button class="cuisines_button chinese">Chinese</button>
+    <button class="cuisines_button pasta">Mughlai</button>
+    <button class="cuisines_button chicken" id="chicken">Roast Chicken</button>
+    <button class="cuisines_button street" id="street">Street Food</button>
 
 
-        <!-- PIZZA -->
-        <div class = "border_box_order box_1_order">
-        <div class = "time_div">20 min</div>
-            <img src = "./images/pizza.jpg" width="100%" height="80%" class = "box_image_orderpage">
-            <div class = "container">
-             <span class = "span_box_orderpage">Domino's Pizza - Mix Pizza</span>
-             <div class = "for_ratingdiv">
-                <span class = "rating_span">4.1</span>
+    <!-- PIZZA -->
+    <div class="border_box_order box_1_order">
+        <div class="time_div">20 min</div>
+        <img src="./images/pizza.jpg" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Domino's Pizza - Mix Pizza</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.1</span>
                 <span class="fa fa-star checked" style="font-size: 12px;"></span>
-             </div>
-             <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-             <span class= "span_price">Rs. 239</span>
+            </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 239</span>
         </div>
+    </div>
+
+    <!-- Thali -->
+    <div class="border_box_order box_2_order">
+        <div class="time_div">18 min</div>
+        <img src="./images/thali.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Thali Central - Veg Special Thali</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.0</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
+            </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 120</span>
         </div>
-
-        <!-- Thali -->
-        <div class = "border_box_order box_2_order">
-            <div class = "time_div">18 min</div>
-                <img src = "./images/thali.avif" width="100%" height="80%" class = "box_image_orderpage">
-                <div class = "container">
-                 <span class = "span_box_orderpage">Thali Central - Veg Special Thali</span>
-                 <div class = "for_ratingdiv">
-                    <span class = "rating_span">4.0</span>
-                    <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                 </div>
-                 <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                 <span class= "span_price">Rs. 120</span>
-                </div>
+    </div>
+    <!-- Sandwich -->
+    <div class="border_box_order box_3_order">
+        <div class="time_div">24 min</div>
+        <img src="./images/sandwich.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Burger King - Corn Sandwich</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.5</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Sandwich -->
-            <div class = "border_box_order box_3_order">
-                <div class = "time_div">24 min</div>
-                    <img src = "./images/sandwich.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                     <span class = "span_box_orderpage">Burger King - Corn Sandwich</span>
-                     <div class = "for_ratingdiv">
-                        <span class = "rating_span">4.5</span>
-                        <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                     </div>
-                     <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                     <span class= "span_price">Rs. 79</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 79</span>
+        </div>
+    </div>
+    <!-- Wraps -->
+    <div class="border_box_order box_4_order">
+        <div class="time_div">10 min</div>
+        <img src="./images/wraps.avif" width="100%" height="80%" class="box_image_orderpage_n">
+        <div class="container">
+            <span class="span_box_orderpage">Social - Wraps Combo with Pepsi</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.8</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Wraps -->
-            <div class = "border_box_order box_4_order">
-                <div class = "time_div">10 min</div>
-                    <img src = "./images/wraps.avif" width="100%" height="80%" class = "box_image_orderpage_n">
-                    <div class = "container">
-                     <span class = "span_box_orderpage">Social - Wraps Combo with Pepsi</span>
-                    <div class = "for_ratingdiv">
-                        <span class = "rating_span">4.8</span>
-                        <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                    </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 69</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 69</span>
+        </div>
+    </div>
+    <!--Biryani  -->
+    <div class="border_box_order box_5_order">
+        <div class="time_div">37 min</div>
+        <img src="./images/biryani.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Biryani boxx - Chicken Biryani</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.1</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-      <!--Biryani  -->
-            <div class = "border_box_order box_5_order">
-                <div class = "time_div">37 min</div>
-                    <img src = "./images/biryani.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Biryani boxx - Chicken Biryani</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.1</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 199</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 199</span>
+        </div>
+    </div>
+    <!-- Manchurian -->
+    <div class="border_box_order box_6_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/manchurian.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Jnj's - Manchurian & Fried Rice</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">3.9</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Manchurian -->
-            <div class = "border_box_order box_6_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/manchurian.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Jnj's - Manchurian & Fried Rice</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">3.9</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 150</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 150</span>
+        </div>
+    </div>
+    <!-- Paneer -->
+    <div class="border_box_order box_7_order">
+        <div class="time_div">29 min</div>
+        <img src="./images/Shahipaneer.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">The Bowl Saga - Shahi Paneer</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.2</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Paneer -->
-            <div class = "border_box_order box_7_order">
-                <div class = "time_div">29 min</div>
-                    <img src = "./images/Shahipaneer.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">The Bowl Saga - Shahi Paneer</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.2</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 120</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 120</span>
+        </div>
+    </div>
+    <!-- Bakery -->
+    <div class="border_box_order box_8_order">
+        <div class="time_div">12 min</div>
+        <img src="./images/bakery.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Sweet Truth - Pastry</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.1</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Bakery -->
-            <div class = "border_box_order box_8_order">
-                <div class = "time_div">12 min</div>
-                    <img src = "./images/bakery.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Sweet Truth - Pastry</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.1</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 50</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 50</span>
+        </div>
+    </div>
+    <!-- burger -->
+    <div class="border_box_order box_9_order">
+        <div class="time_div">19 min</div>
+        <img src="./images/babachicken.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Baba Chicken - Roasted Chicken</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.0</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-            <!-- burger -->
-            <div class = "border_box_order box_9_order">
-                <div class = "time_div">19 min</div>
-                    <img src = "./images/babachicken.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Baba Chicken - Roasted Chicken</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.0</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 239/kg</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 239/kg</span>
+        </div>
+    </div>
+    <!-- Pasta -->
+    <div class="border_box_order box_10_order">
+        <div class="time_div">26 min</div>
+        <img src="./images/pasta.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Pasta de Indifused - Mix Pasta</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.4</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Pasta -->
-            <div class = "border_box_order box_10_order">
-                <div class = "time_div">26 min</div>
-                    <img src = "./images/pasta.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Pasta de Indifused - Mix Pasta</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.4</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 149</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 149</span>
+        </div>
+    </div>
+    <!-- Momos -->
+    <div class="border_box_order box_11_order">
+        <div class="time_div">12 min</div>
+        <img src="./images/momos.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Hyderabadi Junction - Veg. Momos</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.0</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- Momos -->
-            <div class = "border_box_order box_11_order">
-                <div class = "time_div">12 min</div>
-                    <img src = "./images/momos.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Hyderabadi Junction - Veg. Momos</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.0</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 80</span>
-                </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 80</span>
+        </div>
+    </div>
+    <!-- South Indian -->
+    <div class="border_box_order box_12_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/dosa.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Dosa Point - Rava Dosa</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.7</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-<!-- South Indian -->
-            <div class = "border_box_order box_12_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/dosa.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Dosa Point - Rava Dosa</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.7</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 89</span>
-                </div>
-            </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 89</span>
+        </div>
+    </div>
 
 
 
-            <div class = "border_box_order box_13_order">
-                <div class = "time_div">32 min</div>
-                    <img src = "./images/chicken.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">D Buzz - Butter Chicken</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.4</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 330/kg</span>
-                </div>
+    <div class="border_box_order box_13_order">
+        <div class="time_div">32 min</div>
+        <img src="./images/chicken.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">D Buzz - Butter Chicken</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.4</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 330/kg</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_14_order">
-                <div class = "time_div">20 min</div>
-                    <img src = "./images/cholebhature.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Verka Express - Chole Bhature</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 69</span>
-                </div>
+    <div class="border_box_order box_14_order">
+        <div class="time_div">20 min</div>
+        <img src="./images/cholebhature.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Verka Express - Chole Bhature</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 69</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_15_order">
-                <div class = "time_div">10 min</div>
-                    <img src = "./images/gulab.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">New Panna Sweets - Gulab Jamun</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.9</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 230/kg</span>
-                </div>
+    <div class="border_box_order box_15_order">
+        <div class="time_div">10 min</div>
+        <img src="./images/gulab.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">New Panna Sweets - Gulab Jamun</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.9</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 230/kg</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_16_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/papdichaat.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Shirdi Fast Foods - Papdi Chaat</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 59</span>
-                </div>
+    <div class="border_box_order box_16_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/papdichaat.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Shirdi Fast Foods - Papdi Chaat</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 59</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_17_order">
-                <div class = "time_div">40 min</div>
-                    <img src = "./images/kfc.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">KFC - 8Pc. Bucket Combo</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.8</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 559</span>
-                </div>
+    <div class="border_box_order box_17_order">
+        <div class="time_div">40 min</div>
+        <img src="./images/kfc.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">KFC - 8Pc. Bucket Combo</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.8</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 559</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_18_order">
-                <div class = "time_div">18 min</div>
-                    <img src = "./images/garlicbread.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Pizza Hut - Garlic Bread</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.0</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 139</span>
-                </div>
+    <div class="border_box_order box_18_order">
+        <div class="time_div">18 min</div>
+        <img src="./images/garlicbread.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Pizza Hut - Garlic Bread</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.0</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 139</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_19_order">
-                <div class = "time_div">28 min</div>
-                    <img src = "./images/cake.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Classic 44 - Chocolate Cake(1kg)</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 450</span>
-                </div>
+    <div class="border_box_order box_19_order">
+        <div class="time_div">28 min</div>
+        <img src="./images/cake.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Classic 44 - Chocolate Cake(1kg)</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 450</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_20_order">
-                <div class = "time_div">30 min</div>
-                    <img src = "./images/chicken3.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Al Noor - Tandoori Chicken</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.1</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 430/kg</span>
-                </div>
+    <div class="border_box_order box_20_order">
+        <div class="time_div">30 min</div>
+        <img src="./images/chicken3.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Al Noor - Tandoori Chicken</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.1</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 430/kg</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_21_order">
-                <div class = "time_div">8 min</div>
-                    <img src = "./images/golgappe.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Krishna Chat Shop - Gol Gappe(8pcs)</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.9</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 49</span>
-                </div>
+    <div class="border_box_order box_21_order">
+        <div class="time_div">8 min</div>
+        <img src="./images/golgappe.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Krishna Chat Shop - Gol Gappe(8pcs)</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.9</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 49</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_22_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/coldcoffee.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Starbucks Coffee - Brownie Mocha</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.7</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 89</span>
-                </div>
+    <div class="border_box_order box_22_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/coldcoffee.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Starbucks Coffee - Brownie Mocha</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.7</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 89</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_23_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/burger3.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Burger Point - Veg Burger</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.7</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 129</span>
-                </div>
+    <div class="border_box_order box_23_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/burger3.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Burger Point - Veg Burger</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.7</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 129</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_24_order">
-                <div class = "time_div">12 min</div>
-                    <img src = "./images/rasmalai.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Nanak Sweets - Ras Malai</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 89</span>
-                </div>
+    <div class="border_box_order box_24_order">
+        <div class="time_div">12 min</div>
+        <img src="./images/rasmalai.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Nanak Sweets - Ras Malai</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-            
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 89</span>
+        </div>
+    </div>
 
 
-            <div class = "border_box_order box_25_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/rice.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Biryani House - Veg. Biryani</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.6</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 129</span>
-                </div>
+
+    <div class="border_box_order box_25_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/rice.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Biryani House - Veg. Biryani</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.6</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 129</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_26_order">
-                <div class = "time_div">32 min</div>
-                    <img src = "./images/naanthali.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Shirdi Foods and Snacks - Naan Thali</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.8</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 120</span>
-                </div>
+    <div class="border_box_order box_26_order">
+        <div class="time_div">32 min</div>
+        <img src="./images/naanthali.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Shirdi Foods and Snacks - Naan Thali</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.8</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 120</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_27_order">
-                <div class = "time_div">12 min</div>
-                    <img src = "./images/friedmomos.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Raju Fast Food - Fried Momos</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 70</span>
-                </div>
+    <div class="border_box_order box_27_order">
+        <div class="time_div">12 min</div>
+        <img src="./images/friedmomos.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Raju Fast Food - Fried Momos</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 70</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_28_order">
-                <div class = "time_div">42 min</div>
-                    <img src = "./images/chickenwings.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Its Just Wings - Chicken Wings</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.3</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 320</span>
-                </div>
+    <div class="border_box_order box_28_order">
+        <div class="time_div">42 min</div>
+        <img src="./images/chickenwings.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Its Just Wings - Chicken Wings</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.3</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 320</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_29_order">
-                <div class = "time_div">17 min</div>
-                    <img src = "./images/chaap.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Wah Ji Wah - Tandoori Chaap</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.7</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 139</span>
-                </div>
+    <div class="border_box_order box_29_order">
+        <div class="time_div">17 min</div>
+        <img src="./images/chaap.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Wah Ji Wah - Tandoori Chaap</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.7</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 139</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_30_order">
-                <div class = "time_div">15 min</div>
-                    <img src = "./images/chickensandwich.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Subway - Chicken Sandwich</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.9</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 120</span>
-                </div>
+    <div class="border_box_order box_30_order">
+        <div class="time_div">15 min</div>
+        <img src="./images/chickensandwich.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Subway - Chicken Sandwich</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.9</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 120</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_31_order">
-                <div class = "time_div">22 min</div>
-                    <img src = "./images/masalachaap.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Janvi Chaap - Masala Chaap</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.5</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 170</span>
-                </div>
+    <div class="border_box_order box_31_order">
+        <div class="time_div">22 min</div>
+        <img src="./images/masalachaap.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Janvi Chaap - Masala Chaap</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.5</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 170</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_32_order">
-                <div class = "time_div">12 min</div>
-                    <img src = "./images/icecream.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Baskin Robbins - Ice Cream Buckets</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.4</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 400</span>
-                </div>
+    <div class="border_box_order box_32_order">
+        <div class="time_div">12 min</div>
+        <img src="./images/icecream.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Baskin Robbins - Ice Cream Buckets</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.4</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 400</span>
+        </div>
+    </div>
 
-            <div class = "border_box_order box_33_order">
-                <div class = "time_div">32 min</div>
-                    <img src = "./images/paneergravy.avif" width="100%" height="80%" class = "box_image_orderpage">
-                    <div class = "container">
-                        <span class = "span_box_orderpage">Tibet Kitchen - Chilli Paneer Gravy</span>
-                        <div class = "for_ratingdiv">
-                            <span class = "rating_span">4.9</span>
-                             <span class="fa fa-star checked" style="font-size: 12px;"></span>
-                        </div>
-                    <input type = "number" placeholder = "Add to Cart" class = "units_plc" min="0">
-                    <span class= "span_price">Rs. 160</span>
-                </div>
+    <div class="border_box_order box_33_order">
+        <div class="time_div">32 min</div>
+        <img src="./images/paneergravy.avif" width="100%" height="80%" class="box_image_orderpage">
+        <div class="container">
+            <span class="span_box_orderpage">Tibet Kitchen - Chilli Paneer Gravy</span>
+            <div class="for_ratingdiv">
+                <span class="rating_span">4.9</span>
+                <span class="fa fa-star checked" style="font-size: 12px;"></span>
             </div>
-    <span class = "select_span">Select the quantity of each item and Place your order !</span>
-    <a href = "./Orderplaced.html"><button class = "place_order_btn_top btn_order_page">Place Your Order</button></a>
-    <a href = "./Orderplaced.html"><button class = "place_order_btn_bottom btn_order_page">Place Your Order</button></a>
+            <input type="number" placeholder="Add to Cart" class="units_plc" min="0">
+            <span class="span_price">Rs. 160</span>
+        </div>
+    </div>
+    <span class="select_span">Select the quantity of each item and Place your order !</span>
+    <a href="./Orderplaced.html"><button class="place_order_btn_top btn_order_page">Place Your Order</button></a>
+    <a href="./Orderplaced.html"><button class="place_order_btn_bottom btn_order_page">Place Your Order</button></a>
 
-    <div class = "footer" id = "footer_order_page">
-        <img src="./images/zomatonameblack.avif" width="140px" height="28px" class = "footer_zomato_head">
+    <div class="footer" id="footer_order_page">
+        <img src="./images/zomatonameblack.avif" width="140px" height="28px" class="footer_zomato_head">
 
-        <span class = "list_head head1">ABOUT ZOMATO</span>
-            <span class = "items_head1 item11">Who We Are</span>
-            <span class = "items_head1 item21">Blog</span>
-            <span class = "items_head1 item31">Work with Us</span>
-            <span class = "items_head1 item41">Investor Relations</span>
-            <span class = "items_head1 item51">Report Fraud</span>
-    
-        <span class = "list_head head2">ZOMAVERSE</span>
-            <span class = "items_head2 item12">Zomato</span>
-            <span class = "items_head2 item22">Feeding India</span>
-            <span class = "items_head2 item32">Hyperpure</span>
-            <span class = "items_head2 item42">Zomaland</span>
-        
-        <span class = "list_head head3">FOR RESTAURANTS</span>
-            <span class = "items_head3 item13">Partner With Us</span>
-            <span class = "items_head3 item23">Apps For You</span>
-        
-        <span class = "list_head head4" id = "head4_id">FOR ENTERPRISES</span>
-            <span class = "items_head4 item14">Zomato For Work</span>
-        
-        <span class = "list_head head5">LEARN MORE</span>
-            <span class = "items_head5 item15">Privacy</span>
-            <span class = "items_head5 item25">Security</span>
-            <span class = "items_head5 item35">Terms</span>
-            <span class = "items_head5 item45">Sitemap</span>
+        <span class="list_head head1">ABOUT ZOMATO</span>
+        <span class="items_head1 item11">Who We Are</span>
+        <span class="items_head1 item21">Blog</span>
+        <span class="items_head1 item31">Work with Us</span>
+        <span class="items_head1 item41">Investor Relations</span>
+        <span class="items_head1 item51">Report Fraud</span>
 
-        <img src = "./images/playstore.webp" width="12%" height="40px" class = "play_store_footer">
-        <img src = "./images/appstore.webp" width="12%" height="40px" class = "app_store_footer">
-        <span class = "social_links">SOCIAL LINKS</span>
+        <span class="list_head head2">ZOMAVERSE</span>
+        <span class="items_head2 item12">Zomato</span>
+        <span class="items_head2 item22">Feeding India</span>
+        <span class="items_head2 item32">Hyperpure</span>
+        <span class="items_head2 item42">Zomaland</span>
+
+        <span class="list_head head3">FOR RESTAURANTS</span>
+        <span class="items_head3 item13">Partner With Us</span>
+        <span class="items_head3 item23">Apps For You</span>
+
+        <span class="list_head head4" id="head4_id">FOR ENTERPRISES</span>
+        <span class="items_head4 item14">Zomato For Work</span>
+
+        <span class="list_head head5">LEARN MORE</span>
+        <span class="items_head5 item15">Privacy</span>
+        <span class="items_head5 item25">Security</span>
+        <span class="items_head5 item35">Terms</span>
+        <span class="items_head5 item45">Sitemap</span>
+
+        <img src="./images/playstore.webp" width="12%" height="40px" class="play_store_footer">
+        <img src="./images/appstore.webp" width="12%" height="40px" class="app_store_footer">
+        <span class="social_links">SOCIAL LINKS</span>
         <i style="font-size:24px" class="fa icon1">&#xf2c6;</i>
         <i style="font-size:24px" class="fa icon2">&#xf2ab;</i>
         <i style="font-size:24px" class="fa icon3">&#xf16d;</i>
         <i style="font-size:24px" class="fa icon4">&#xf082;</i>
     </div>
-
-
-
-
-
-
-
-        
-
-        
-    </body>
+</body>

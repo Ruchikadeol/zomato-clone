@@ -1,25 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Login to Zomato</title>
-        <link rel="icon" href="./images/zomato_logo_2017.avif" type="image/gif" sizes="any">
-        <link rel = "stylesheet" type = "text/css" href = "./Zomato.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="signup_validation.js"></script>
 
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    </head>
-    <body class = "login_body">
-        <div class = "login_div">
-            <span class = "login_span text_loginpage">Log in</span>
-            <!-- <img src = ".\zomato_logo_2017.avif" width="150px" height="100px" class = "login_logo"> -->
-            <input type = "tel" placeholder = "Phone Number" required maxlength="10" class= "login_ph_plc">
-            <button class = "send_otp_btn">Send OTP</button>
-            <span class = "OR">OR</span>
-            <hr class = "hr1"><hr class = "hr2"><hr class = "hr3">
-            <button class = "google_btn">Continue with Google</button>
-            <button class = "email_btn">Continue with Email</button>
-            <span class = "new_create_acc">New to Zomato ? <a href = "./signup.html" class = "create_account_link"><span class = "create_account">Create Account</a></span>
-            <!-- <button class="verify_btn" onclick="validateSignup()">Verify</button> -->
+<head>
+    <title>Login to Zomato</title>
+    <link rel="icon" href="./images/zomato_logo_2017.avif" type="image/gif" sizes="any">
+    <link rel="stylesheet" type="text/css" href="./auth.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="signup_validation.js"></script>
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body class="login_body">
+    <div class="login_div">
+        <span class="login_span text_loginpage">Log in</span>
+        <!-- <img src = ".\zomato_logo_2017.avif" width="150px" height="100px" class = "login_logo"> -->
+        <input type="tel" placeholder="Phone Number" required maxlength="10" class="login_ph_plc">
+        <button class="send_otp_btn">Send OTP</button>
+
+        <div class="divider">
+            <div class="hr"></div>
+            <span class="OR">OR</span>
+            <div class="hr"></div>
         </div>
-    </body>
+
+        <button class="google_btn">Continue with Google</button>
+        <button class="email_btn">Continue with Email</button>
+        <span class="new_create_acc">New to Zomato ? <a href="./signup.html" class="create_account_link"><span
+                    class="create_account">Create Account</a></span>
+        <!-- <button class="verify_btn" onclick="validateSignup()">Verify</button> -->
+    </div>
+</body>
